@@ -39,7 +39,6 @@ public class DashboardScreen extends AppCompatActivity implements NavigationView
     static final float END_SCALE = 0.7F;
     RecyclerView FeatureRecycler, mostViewedRecycler, categoriesRecycler;
     RecyclerView.Adapter adapter;
-    private GradientDrawable gradient1, gradient2, gradient3, gradient4;
     ImageView menuIcon;
     //Draew Menu
     DrawerLayout drawerLayout;
@@ -134,10 +133,10 @@ public class DashboardScreen extends AppCompatActivity implements NavigationView
     private void categoriesRecycler() {
 
         //All Gradients
-        gradient1 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, new int[]{0xff81C784, 0xffB9F6CA});
-        gradient2 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, new int[]{0xff7adccf, 0xff7adccf});
-        gradient3 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, new int[]{0xfff7c59f, 0xFFf7c59f});
-        gradient4 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, new int[]{0xffb8d7f5, 0xffb8d7f5});
+        GradientDrawable gradient1 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, new int[]{0xff81C784, 0xffB9F6CA});
+        GradientDrawable gradient2 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, new int[]{0xff7adccf, 0xff7adccf});
+        GradientDrawable gradient3 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, new int[]{0xfff7c59f, 0xFFf7c59f});
+        GradientDrawable gradient4 = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, new int[]{0xffb8d7f5, 0xffb8d7f5});
 
 
         ArrayList<CategoriesHelperClass> categoriesHelperClasses = new ArrayList<>();

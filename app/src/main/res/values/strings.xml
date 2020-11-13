@@ -10,6 +10,7 @@
     <string name="video_lecture">Video</string>
     <string name="audio_lecture">Audio</string>
     <string name="text_lecture">Text</string>
+    <string name="quiz">Quiz</string>
 
     <!-- Categories-->
     <string name="hotels">Hotels</string>

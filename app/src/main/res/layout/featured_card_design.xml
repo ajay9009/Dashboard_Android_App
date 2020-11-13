@@ -24,7 +24,7 @@
             android:id="@+id/featured_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/baloo"
+            android:fontFamily="sans-serif"
             android:text="Study Hard"
             android:textColor="@color/colorPrimary"
             android:textSize="20dp" />
